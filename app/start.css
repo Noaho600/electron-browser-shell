@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #1e1e2f, #282843);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.shade-container {
+  text-align: center;
+}
+
+.logo {
+  font-size: 64px;
+  margin-bottom: 40px;
+}
+
+#search-box {
+  width: 400px;
+  padding: 12px 20px;
+  border-radius: 24px;
+  border: none;
+  font-size: 18px;
+  outline: none;
+}
+
+#shortcuts {
+  margin-top: 40px;
+}
+
+#shortcuts a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #00bfff;
+  font-size: 18px;
+}
+#shortcuts a:hover {
+  text-decoration: underline;
+}
